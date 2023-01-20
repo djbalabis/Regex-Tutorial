@@ -1,49 +1,42 @@
-# Title (replace with your title)
+# Matching a URL (Regex Tutorial)
 
-Introductory paragraph (replace this with your text)
+This is a tutorial describing the regular expression (regex) for matching a URL. The following sections will evaluate each component of the regex with informative descriptions about each step.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial describes the regex, or sequence of characters that defines the specific search pattern of a URL, ```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```. The characters used in this specific search pattern are called metacharacters, which instead of indicating a literal character, indicates a more generalized pattern. Regex are frequently used to validate input, as when included in code or search algorithms, regex can be used to find certain patterns of characters in a string, or find and replace a character or sequence of characters within a string.
 
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Greedy Match](#greedy-match)
 
 ## Regex Components
+
+Components of a regex matching a URL include:
+* Anchors ```^``` ```$```
+* Quantifiers ```*``` ```+``` ```?``` ```{}```
+* Character classes ```\d``` ```\w``` ```.```
+* Grouping and capturing ```()```
+* Bracket expressions ```[]```
+* Greedy match ```*```
 
 ### Anchors
 
 ### Quantifiers
 
-### OR Operator
-
 ### Character Classes
-
-### Flags
 
 ### Grouping and Capturing
 
 ### Bracket Expressions
 
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+### Greedy Match
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Created by D.J. Balabis. For additional questions and information, please visit my [GitHub profile](github.com/djbalabis/) or reach out via email at uneekproductions@gmail.com.
